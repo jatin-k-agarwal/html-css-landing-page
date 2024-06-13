@@ -1,0 +1,155 @@
+
+@font-face{
+    font-family: winter;
+    src: url(./font-family/Winter\ Insight.otf);
+}
+
+
+
+body{
+    width: 1600px;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+                                                
+}
+
+.landing{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://privateoracle.com/assets/uploads/settings/home_slider_new.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 318px;
+    height: 111px;
+    position: absolute;
+    top: 56px;
+    left: 170px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+
+}
+ul{
+    font-size:medium ;
+    position: absolute;
+    top: 96.76px;
+    left: 664px;   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #09B3B0;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #FF9F00;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+}
+.navbar ul li:hover::after{
+    width:100%   
+}
+.svg{
+    width: 38.5px;
+    height: 38.5px;
+    border-radius: 50%;
+    position: absolute; 
+    top: 91px; 
+    left: 1214px;
+}
+svg{
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+span{
+    
+    background-color:#09B3B0;
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    text-align: center;
+}
+button{
+    width: 87.5px;
+    height: 35px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid #09B3B0;
+    background-color: #09B3B0;
+    color: white;
+    position: absolute;
+    top: 85px;
+    left: 1283px;
+}
+.content{
+    font-family: 'Winter', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF9F00;
+    position: absolute;
+    top: 290px;
+    left: 91px;
+}
+#h1{
+    font-size: 100px;
+    width: 400px;
+    height: 150px;
+}
+ #line{
+    font-size: 30px;
+    width: 428px;
+    height: 20px;
+    color: black;
+}
+#rate{
+    font-family: "Yrsa", serif;
+    font-size: 50px;
+    width: 272px;
+    height: 39px;
+    padding-left: 40px;
+    text-transform: none;
+}
+.footer{
+   width: 1600px;
+   height: 150px;
+   position: absolute;
+   top: 850px;
+   left: 0;
+   bottom: 0;
+   text-align: center;
+   background-color: #09B3B0;
+}
+#footer{
+    font-family:"Poppins", sans-serif ;
+    font-weight: 500;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0px 40px;
+    color: white;
+   
+}
+
